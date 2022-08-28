@@ -1,0 +1,270 @@
+
+\documentclass[journal]{IEEEtran}
+%
+\usepackage{instructivo}  % Commands for multiple choice
+\graphicspath{{./}{./fig/}}
+
+\usepackage{float}
+
+\usepackage[natbib=true,style=trad-unsrt,backend=biber]{biblatex}
+
+\addbibresource{literatura.bib}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+\title{Experimento 01: El Diodo}
+
+
+\author{Andrés~Arturo~Rojas-Barboza,~\IEEEmembership{Estudiante,~ITCR}
+        y~Fabián~Mauricio~Villegas-Bonilla,~\IEEEmembership{Estudiante,~ITCR,}
+}
+
+
+% The paper headers
+\markboth{EL3215 Laboratorio de Electrónica Analógica, IIS2022}%
+{EL3215 Laboratorio de Electrónica Analógica}
+
+
+% make the title area
+\maketitle
+
+
+\begin{abstract}
+El informe presenta el desarollo y resultado del experimento 1 de diodos, donde se formaron varios circuitos con diodos para medir su curva caracteristicas y el resultado de sus señales de salida.
+\end{abstract}
+
+% Se sugiere no más de cuatro palabras o frases cortas en orden alfabético, separadas por comas, que representen su reporte
+\begin{IEEEkeywords}
+Diodo, tensión, corriente, junta, ruptura.
+\end{IEEEkeywords}
+
+
+\section{Introducción}
+
+\IEEEPARstart{L}{os} transistores bjt son semiconducores que tienen la caracteristica de aumentar la corriente o el voltaje de una salida de tensión. Los transis
+
+
+\section{Curva Característica del Diodo}
+Para realizar la mediciones de corriente en el diodo se uso la ley de Ohm. La ecuación de la ley de Ohm es
+\par
+\begin{equation}
+V=I\cdot R
+\end{equation}
+
+
+De modo que al realizar el despeje de la corriente de como resultado la ecuación
+
+\begin{equation}
+I=\frac{V}{R}
+\end{equation}
+
+\subsection{Circuitos de Medición}
+
+El circuito de la Fig. \ref{fig:directa} y la Fig.\ref{fig:reversa} se utiliza para obtener una curva característica de un diodo utilizando una fuente de tensión CD y un multímetro. Posteriormente se utilizaria para crear y visualizar sus caracteristica graficas de V-I y en una hoja semilogaritmica.
+
+ 
+\begin{figure}[H]
+\centering
+\begin{subfigure}[c]{0.4\textwidth}
+	\centering
+	\includegraphics[width=2.5in]{circuito_1}
+	\caption{Directa}
+	\label{fig:directa}	
+\end{subfigure}
+\hfill
+\begin{subfigure}[c]{0.4\textwidth}
+	\centering
+	\includegraphics[width=2.5in]{circuito_2}
+	\caption{Inversa}
+	\label{fig:reversa}	
+\end{subfigure}
+\caption{Polarización del diodo}
+\label{fig:poldiodo}
+\end{figure}
+
+\subsection{Resultados Experimentales}
+
+La \ref{tabla1} muestra los valores de la resistencia reales utilizados para hacer las mediciones de la 
+
+	\begin{table}[H]
+        \centering
+        \caption{Valores de resistencia utilizados}
+        \begin{tabular}{|>{\centering\arraybackslash}m{1.5cm}|>{\centering\arraybackslash}m{1.5cm}|>{\centering\arraybackslash}m{1.5cm}|>{\centering\arraybackslash}m{1.5cm}|}
+             \hline
+             Componente & Valor requerido & Valor medido & Error \\ 
+             \hline
+             $R_1$ & $330\,\Omega$ & $322\,\Omega$ & $2.42\%$ \\ 
+             \hline
+             $R_2$ & $1\,M\Omega$ & $988\,\Omega$ & $1.2\%$ \\
+             \hline
+            \end{tabular}
+    	\label{tabla1}   
+	\end{table}
+	
+\begin{table}[H]
+        \centering
+        \caption{Resultado experimentales}
+        \begin{tabular}{|>{\centering\arraybackslash}m{1.5cm}|>{\centering\arraybackslash}m{1.5cm}|>{\centering\arraybackslash}m{1.5cm}|>{\centering\arraybackslash}m{1.5cm}|}
+             \hline
+             $V_{S}\,(V)$ & $V_F\,(V)$ & $V_{R1}\,(mV)$ & $I_F\,(mA)$ \\ 
+             \hline
+             0.462 & 0.45 & 11.534 & 0.035 \\ 
+             \hline
+             0.532 & 0.50 & 32.319 & 0.098 \\
+             \hline
+             0.642 & 0.55 & 91.9 & 0.278 \\
+             \hline
+             0.856 & 0.60 & 255.679 & 0.774 \\
+             \hline
+             1.135 & 0.65 & 705.183 & 2.137 \\
+             \hline
+             2.578 & 0.70 & 1.878 & 5.69 \\
+             \hline
+             5.376 & 0.75 & 4.626 & 4 \\
+             \hline
+             10.78 & 0.80 & 9.89 & 30 \\           
+             \hline
+            \end{tabular}
+    	\label{tabla1}   
+	\end{table}
+	
+
+
+ En el papel logaritmo de la
+Figura 4 se crea un crecimiento de
+comportamiento lineal mostrando un
+crecimiento constante, mientras tanto la
+Figura 3 se muestra un crecimiento de forma
+exponencial donde aumenta levemente desde
+el 0.4V hasta el gran cambio en 0.7V o sea el
+kneeling voltage.
+
+
+%%1. La impedancia de entrada de un voltímetrob debe ser un valor alto debido que, a la hora de realizar una medición de tensión eléctrica esta debe de ser conectada en paralelo con el circuito. Por eso, al tener un valor de entrada tan alto, es poca la corriente que va circular por el multímetro y, por lo tanto, este afectaría en menor medida al comportamiento del circuito, brindando una mejor medición. 
+
+
+%%2. La razón por la que la resistencia de la Figura 2 es tan alta es para que la corriente de fuga del diodo no afecte al comportamiento del circuito. Que el diodo no llegue al punto de quiebre en el lado negativo de los voltajes.
+
+
+\vspace{5mm}
+
+\subsection{Análisis de Resultados}
+En el texto del documento usualmente se anotan citas bibliográficas, en donde la forma de hacerlo es la siguiente:
+
+
+La tensión de ruptura del diodo se puede aproximar en $0.7\,$V \cite{Malik1996,Boylestad,Horowitz1989,Gray1995}. Por otro lado, la tensión de ruptura se puede considerar de $-40\,$V \cite{Floyd2008,Behzad2013,Schilling1994}. Un diodo puede considerarse como una junta de dos materiales, uno con un dopado de portadores mayoritarios mayor al otro material de la junta \cite{Pierret1994}.\\
+
+
+La ecuación que describe la ley de Ohm es:
+\begin{equation}
+	V=I\cdot R
+\end{equation}
+
+\subsection{Circuitos de Medición}
+El circuito de la Fig. \ref{fig_cir2} se utiliza para o.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=3in]{circuito_3}
+\caption{Circuito de polarización inversa}
+\label{fig_cir2}
+\end{figure}
+
+\section{Graficando la Curva Característica del Diodo con el Osciloscopio}
+
+
+
+Figura 5: Circuito para obtener curvas
+características del diodo con el osciloscopio
+
+
+A continuación, con el generador de señales,se seleccionó el tipo de señal senoidal a 60 Hz y con un valor de tensión pico de 5 V. se midió en el osciloscopio la señal del voltaje en el diodo 1N914 (canal A, color rojo) y la corriente que pasa por la resistencia de 1 $k\omega$ (Canal B, color azul). Luego se ajustó la escala de tiempo a 5 ms/Div y para el canal A y el canal B, se ajustaron ambas escalas a 1 V/Div. Se obtuvo la Figura 6:
+
+
+Figura 6: Señales vistas desde el osciloscopio del diodo 1N914 de la Figura 5
+
+
+La resistencia dinámica se muestra en el diodo en su región activa (línea roja) como el impedimento de llegar su punto Q en el espació que aumenta lentamente para llegar a su pico desde el tiempo de 16ms a los
+17ms.
+
+
+Posteriormente, se cambió el diodo por un Led rojo y se procedió a realizar las mediciones del voltaje en el Led rojo (canal A, color rojo) y la corriente de la resistencia de 1 $k\omega$ (Canal B,color azul). El valor del generador de señales se mantuvo, junto a las escalas de tiempo para observar ambas señales en el osciloscopio.
+
+
+Figura 7: Señales vistas desde el osciloscopio del Led rojo del circuito de la Figura 5
+
+
+ El Led rojo ofrece menos resistencia dinámica que el diodo 1N914 lo que provoca que llegue a su voltaje máximo en menor tiempo.
+
+
+Luego se cambió el Led rojo por un Led verde y se procedió a medir el voltaje en el Led verde (canal A, color rojo) y la corriente de la resistencia de 1 $k\omega$ (Canal B, color azul). La señal generada para las mediciones anteriores se mantuvo, junto a las escalas de tiempo para observar ambas señales en el osciloscopio presentada en la Figura 8.
+
+
+Figura 8: Señales vistas desde el osciloscopio para el Led verde del circuito de la Figura 5
+
+
+
+Se comporta de la misma manera que el Led rojo de la fig
+
+
+
+Después, se intercambió el Led rojo por un diodo Zener 1N4733A y se procedió a medir el voltaje en el diodo Zener 1N4733A (canal A, color rojo) y la corriente de la resistencia de1 $k\omega$ (Canal B, color azul). La señal generada para las mediciones anteriores se mantuvo, y la escala de tiempo se ajustó a 10ms y la escala de la tensión a 2 V/Div formando la Figura 9.
+
+
+
+Figura 9: Señales vistas desde el osciloscopio para el diodo Zener 1N4733A del circuito de la Figura 5
+
+
+
+ El diodo Zener 1N4733A permite el paso de corriente en directa al llegar al punto Q en tensiones menores a los 5 VP. Finalmente se aproximó el voltaje de ruptura del diodo Zener 1N4733A, el cuál empieza a partir de que se superan los 5 VP en la señal del generador. Para poder identificar de manera más clara, el efecto que causa sobre la corriente del circuito. Se ajustó la fuente a 6 VP a 60 Hz y se mantuvo las escalas de
+mediciones para el caso anterior.
+
+
+
+Figura 10: Tensión de ruptura para el diodo Zener 1N4733A
+
+
+
+ El diodo Zener 1N4733A al superar su tensión de ruptura de 5 VP también permite el paso de corriente en inversa durante el ciclo negativo de la señal de
+la fuente.
+
+
+
+Preguntas
+
+
+
+%%1. Esta resistencia dinámica depende del punto Q o punto de operación que se obtiene con la fuente de corriente directa. Luego para obtenerla resistencia dinámica del diodo se debe calcular la corriente que pasa a través de este por medio de la resistencia y dividir este con la delta de la tensión del diodo que es igual al Vt (26mV a 300k) para la corriente obtenida.[1]
+
+
+
+%%2. Si se puede utilizar el procedimiento de la parte 2 para obtener la curva característica de un resistor, pero solo sería necesario utilizar el osciloscopio para medir dicho resistor debido a que la resistencia solo presenta una recta que depende del valor del voltaje.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusiones}
+ Por medio de la información de la fig se muestra que si se cumple la teoría donde el diodo tiene su punto de trabajo alrededor de los 0.6V a los 0.8V siendo los 0.7V el punto donde se encuentra el mayor crecimiento de corriente.
+ 
+\section{Referencias}
+R. L. BOYLESTAD, y L. NASHELSKY, 
+\textit{Electrónica: Teoría de Circuitos
+y Dispositivos Electrónicos}. PEARSON EDUCACIÓN, México, 2009
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendices
+\section{Demostración de la Ley de Ohm}
+El texto relacionado al apéndice va aquí.
+
+\section{Cálculos de polarización CD}
+El texto relacionado al apéndice va aquí.
+
+\end{document}
+
+
+
+
+
+
