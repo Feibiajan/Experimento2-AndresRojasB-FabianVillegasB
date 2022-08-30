@@ -45,10 +45,11 @@ Diodo, tensión, corriente, junta, ruptura.
 \section{Introducción}
 
 \IEEEPARstart{L}{os} transistores de union bipolar bjt son semiconducores de tres capas que pueden ser con materiales de tipo npn o pnp esto determinara la dirección de su corriente, para este experimento se usara solo el 2N3904 (npn). Los transistores bjt tienen tres terminales llamados colector(C), emisor (E) y base (B), donde la base sirve como un switch de polarización para permitir que la corriente en la terminal del colector. [132]
-Que tienen la caracteristica de aumentar la corriente o el voltaje de una salida de tensión. Los transis
 
+Los transistores bjt tiene la función de crear una ganancia de corriente para el voltaje de salida del circuito. Para que el bjt este encendido (polarizado) este necesita de una fuente de corriente directa (CD) en su terminales de base y colector en caso de los npn, de modo que al agregarle una fuente de corriente alterna su señal dependera de como este modificado el circuito con su transistor
 
-\section{Ecuaciones}
+\section{Experimenacion}
+\subsection{Ecuaciones}
 Para realizar la mediciones de voltaje en los circuitos se uso la ley de Ohm. La ecuación de la ley de Ohm es
 \par
 \begin{equation}
@@ -85,16 +86,29 @@ El circuito de la Fig. \ref{fig:T1} sirve como referencia para obtener las curva
 
 \subsection{Resultados Simulados}
 
-\subsection{Resultados Experimentales}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=2.5in]{tabla1}
+	\caption{Tabla 2: Resultados simulados}
+	\label{fig:Ta1}	
+\end{figure}
+\hfill
 
-La \ref{tabla1} muestra los valores de la resistencia reales utilizados para hacer las mediciones de la 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=2.5in]{tabla2}
+	\caption{Ganancia en corriente Bcd}
+	\label{fig:Ta2}	
+\end{figure}
+\hfill
+\subsection{Resultados Experimentales}
 
 
 \vspace{5mm}
 
 \subsection{Análisis de Resultados}
 
-La tensión de ruptura del diodo se puede aproximar en $0.7\,$V \cite{Malik1996,Boylestad,Horowitz1989,Gray1995}. Por otro lado, la tensión de ruptura se puede considerar de $-40\,$V \cite{Floyd2008,Behzad2013,Schilling1994}. Un diodo puede considerarse como una junta de dos materiales, uno con un dopado de portadores mayoritarios mayor al otro material de la junta \cite{Pierret1994}.\\
+ \cite{Boylestad}. 
 
 
 
@@ -109,20 +123,18 @@ La tensión de ruptura del diodo se puede aproximar en $0.7\,$V \cite{Malik1996,
 
 
 \section{Conclusiones}
- Por medio de la información de la fig se muestra que si se cumple la teoría donde el diodo tiene su punto de trabajo alrededor de los 0.6V a los 0.8V siendo los 0.7V el punto donde se encuentra el mayor crecimiento de corriente.
+ 
  
 \section{Referencias}
 R. L. BOYLESTAD, y L. NASHELSKY, 
 \textit{Electrónica: Teoría de Circuitos
 y Dispositivos Electrónicos}. PEARSON EDUCACIÓN, México, 2009
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 \appendices
 \section{Demostración de la Ley de Ohm}
 El texto relacionado al apéndice va aquí.
 
-\section{Cálculos de polarización CD}
-El texto relacionado al apéndice va aquí.
 
 \end{document}
 

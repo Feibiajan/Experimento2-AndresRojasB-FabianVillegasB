@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.7)  29 AUG 2022 19:20
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.7)  29 AUG 2022 19:18
->>>>>>> b442d8ae731d4bf724264b8e4a6b12a9ad1c9b72
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.7)  29 AUG 2022 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -117,7 +113,6 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen161
 \c@IEEEbiography=\count199
 \@IEEEtranrubishbin=\box52
-<<<<<<< HEAD
 ) (instructivo.sty
 Package: instructivo 
 
@@ -1332,8 +1327,8 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 17
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 (Informe Experimento 2.aux
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
 )
 \openout1 = `"Informe Experimento 2.aux"'.
 
@@ -1502,24 +1497,24 @@ Package biblatex Info: ... file '"Informe Experimento 2".bbl' not found.
 No file "Informe Experimento 2".bbl.
 Package biblatex Info: Reference section=0 on input line 17.
 Package biblatex Info: Reference segment=0 on input line 17.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
 
 (C:\Users\famav\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
 
 
 (C:\Users\famav\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 54
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 55
 .
 
 (C:\Users\famav\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+trsy on input line 54
+LaTeX Font Info:    Trying to load font information for U+trsy on input line 55
 .
 
 (C:\Users\famav\AppData\Local\Programs\MiKTeX\tex/latex/trsym\utrsy.fd
@@ -1528,51 +1523,44 @@ File: utrsy.fd 2000/06/25v1.0transformation symbol font definitions
 <circuito_T1.jpg, id=52, 286.82156pt x 201.75375pt>
 File: circuito_T1.jpg Graphic file (type jpg)
 <use circuito_T1.jpg>
-Package pdftex.def Info: circuito_T1.jpg  used on input line 72.
+Package pdftex.def Info: circuito_T1.jpg  used on input line 73.
 (pdftex.def)             Requested size: 180.67499pt x 127.09013pt.
 <circuito_T2.jpg, id=53, 358.33875pt x 203.25937pt>
 File: circuito_T2.jpg Graphic file (type jpg)
 <use circuito_T2.jpg>
-Package pdftex.def Info: circuito_T2.jpg  used on input line 80.
+Package pdftex.def Info: circuito_T2.jpg  used on input line 81.
 (pdftex.def)             Requested size: 180.67499pt x 102.48543pt.
 
 
-LaTeX Warning: Reference `tabla1' on page 1 undefined on input line 90.
+! LaTeX Error: File `tabla1' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 	\includegraphics[width=2.5in]{tabla1}
+                                           
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'Malik1996' on page 1 undefined on input line 97.
+! LaTeX Error: File `tabla2' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 	\includegraphics[width=2.5in]{tabla2}
+                                           
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'Boylestad' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'Horowitz1989' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'Gray1995' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'Floyd2008' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'Behzad2013' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'Schilling1994' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'Pierret1994' on page 1 undefined on input line 97.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-\T1/phv/m/n/10 en $\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ;\OT1/cmr/m/n/10 7 $\T1/ph
-v/m/n/10 V [[], [], [],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
+LaTeX Warning: Citation 'Boylestad' on page 1 undefined on input line 111.
 
 [1{C:/Users/famav/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
@@ -1584,16 +1572,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
  [2
 
 ] (Informe Experimento 2.aux
-LaTeX Info: Redefining \sptext on input line 39.
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \sptext on input line 25.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
 )
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `"Informe Experimento 2".out' has not changed
 .
-(rerunfilecheck)             Checksum: 793A29BC03A589C72FDA9FE42A5BFBE2;1939.
+(rerunfilecheck)             Checksum: E5F5A72EE21E2B92B403FDF18491DA9A;1803.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                "Informe Experimento 2"
@@ -1604,10 +1592,10 @@ Package logreq Info: Writing requests to '"Informe Experimento 2".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36875 strings out of 478337
- 742559 string characters out of 2836667
- 1404463 words of memory out of 3000000
- 54732 multiletter control sequences out of 15000+600000
+ 36945 strings out of 478337
+ 743568 string characters out of 2836667
+ 1405455 words of memory out of 3000000
+ 54790 multiletter control sequences out of 15000+600000
  600594 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  99i,6n,94p,1170b,1818s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1620,36 +1608,9 @@ amsfonts/cm/cmsy10.pfb><C:/Users/famav/AppData/Local/Programs/MiKTeX/fonts/type
 ype1/urw/helvetic/uhvbo8a.pfb><C:/Users/famav/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/famav/AppData/Local/Programs/MiKTeX/
 fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "Informe Experimento 2.pdf" (2 pages, 118877 bytes).
+Output written on "Informe Experimento 2.pdf" (2 pages, 114524 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
+ 115 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-=======
-)
-
-! LaTeX Error: File `instructivo.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.5 \graphicspath
-                 {{./}{./fig/}}^^M
-*** (cannot \read from terminal in nonstop modes)
-
- 
-Here is how much of TeX's memory you used:
- 1053 strings out of 478337
- 20082 string characters out of 2836667
- 319326 words of memory out of 3000000
- 19570 multiletter control sequences out of 15000+600000
- 490329 words of font info for 68 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 34i,1n,37p,276b,152s stack positions out of 10000i,1000n,20000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
->>>>>>> b442d8ae731d4bf724264b8e4a6b12a9ad1c9b72
