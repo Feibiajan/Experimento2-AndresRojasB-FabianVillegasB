@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.7)  29 AUG 2022 19:20
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.7)  29 AUG 2022 19:18
+>>>>>>> b442d8ae731d4bf724264b8e4a6b12a9ad1c9b72
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -113,6 +117,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen161
 \c@IEEEbiography=\count199
 \@IEEEtranrubishbin=\box52
+<<<<<<< HEAD
 ) (instructivo.sty
 Package: instructivo 
 
@@ -1621,3 +1626,30 @@ PDF statistics:
  21 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+=======
+)
+
+! LaTeX Error: File `instructivo.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.5 \graphicspath
+                 {{./}{./fig/}}^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 1053 strings out of 478337
+ 20082 string characters out of 2836667
+ 319326 words of memory out of 3000000
+ 19570 multiletter control sequences out of 15000+600000
+ 490329 words of font info for 68 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,1n,37p,276b,152s stack positions out of 10000i,1000n,20000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+>>>>>>> b442d8ae731d4bf724264b8e4a6b12a9ad1c9b72
